@@ -8,43 +8,122 @@ sections:
  - title: Conversation
    contents:
     - cree: tân'si
-      eng: Hi, how are you?
+      trans: Hi, how are you?
     - cree: namôya nân'taw
-      eng: I'm fine./Not bad.
+      trans: I'm fine./Not bad.
     - cree: kîya mâka
-      eng: And how about you?
+      trans: And how about you?
     - cree: pêyakwan
-      eng: About the same.
+      trans: About the same.
     - cree: kâyas
-      eng: It's been a long time.
+      trans: It's been a long time.
     - cree: pihtokwê
-      eng: Come in!
+      trans: Come in!
     - cree: ay-api
-      eng: Please have a sseat.
+      trans: Please have a sseat.
     - cree: ay hay
-      eng: Thank you.
+      trans: Thank you.
     - cree: tatâwaw
-      eng: Welcome! (lit. there is room.)
+      trans: Welcome! (lit. there is room.)
     - cree: tân'si isiyihkâsoyan
-      eng: What is your name?
+      trans: What is your name?
     - cree: Sylvie nit'sihkâson
-      eng: My name is Sylvie.
+      trans: My name is Sylvie.
     - cree: tân'tê ohci kîya
-      eng: Where are you from?
+      trans: Where are you from?
     - cree: mikisiwacîhk ohci nîya
-      eng: I'm from Eagle Hills.
+      trans: I'm from Eagle Hills.
     - cree: kinêhiyawân?
-      eng: Do you speak Cree?
+      trans: Do you speak Cree?
     - cree: ap'sîs
-      eng: A little bit.
+      trans: A little bit.
     - cree: tâpwe cî
-      eng: Is that right?
+      trans: Is that right?
     - cree: kin's'tohtên cî?
-      eng: Do you understand?
+      trans: Do you understand?
     - cree: ap'sîs nin's'tohtên
-      eng: I understand a little.
+      trans: I understand a little.
     - cree: kinôhtêhkatân cî
-      eng: Are you hungry?
+      trans: Are you hungry?
     - cree: tâpwê pikwâni
-      eng: "Very true!/Indeed!"
-    footer: cî is a question marker; it must be the 2nd word in the sentence.
+      trans: "Very true!/Indeed!"
+    footer: <cî> is a question marker; it must be the 2nd word in the sentence.
+
+ - title: Months of the Year
+   subtitle: <pîsim> = sun/month
+   contents:
+    - eng: January
+      trans: cold month
+      cree: kisepîsim
+    - eng: February
+      trans: bald eagle month
+      cree: mikisowipîsim
+    - eng: March
+      trans: goose month
+      cree: niskipîsim
+    - eng: April
+      trans: frog month
+      cree: ayikipîsim
+    - eng: May
+      trans: egg-laying month
+      cree: opiniyâwêwowipîsim
+    - eng: June
+      trans: egg-hatching month
+      cree: opâskâwêwiwipîsim
+    - eng: July
+      trans: moulting month
+      cree: opaskowipîsim
+    - eng: August
+      trans: flying month
+      cree: ohpahowipîsim
+    - eng: September
+      trans: mating month
+      cree: onôcihtowipîsim
+    - eng: October
+      trans: freezing month
+      cree: kaskatinowipîsim
+    - eng: November
+      trans: frost month
+      cree: iyikowpiwipîsim
+    - eng: December
+      trans: drift-clearing month
+      cree: pawahcakinasîs
+
+ - title: Interrogative Particles
+   contents:
+    - trans: Who
+      cree: awîna
+    - trans: What
+      cree: kîkway
+    - trans: When
+      cree: tân'spî
+    - trans: Where
+      cree: tân'te
+    - trans: Why
+      cree: tânêhki
+    - trans: How
+      cree: tân'sîyisi
+
+ - title: Interrogative Particles
+   contents:
+    - trans: Who
+      cree: awîna
+    - trans: What
+      cree: kîkway
+    - trans: When
+      cree: tân'spî
+    - trans: Where
+      cree: tân'te
+    - trans: Why
+      cree: tânêhki
+    - trans: How
+      cree: tân'sîyisi
+
+ - title: Come and ---!
+   contents:
+    - cree: pê mîciso
+      trans: Come and eat!
+    - cree: pê apik
+      trans: Come and sit! (2P)
+    - cree: pê nîmihito
+      trans: Come and dance!
