@@ -47,7 +47,7 @@ sections:
       trans: Are you hungry?
     - cree: tâpwê pikwâni
       trans: "Very true!/Indeed!"
-    footer: <cî> is a question marker; it must be the 2nd word in the sentence.
+   footer: "<cî> is a question marker; it must be the 2nd word in the sentence."
 
  - title: Months of the Year
    subtitle: <pîsim> = sun/month
@@ -130,7 +130,7 @@ sections:
       cree: nikotwâsik kîsikâw
     - trans: Sunday
       cree: ayamihêw kîsikâw
-  footnote:
+   footnote:
     - ayamihew (Verb, TA) = to pray
     - Monday means the day after prayer day
 
