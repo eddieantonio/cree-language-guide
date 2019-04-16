@@ -168,7 +168,7 @@ sections:
       eng: he/she
       cree: wîya
     - gloss: 1P
-      eng: us but not you 
+      eng: us but not you
       cree: nîyanân
     - gloss: 2I
       eng: all of us
@@ -272,6 +272,8 @@ sections:
     - gloss: 4:20
       wide-cree: nîstanaw cipahikanis mîyâskam nêwo tipahikan
 
+  # TODO: Verb conjugation
+
  - title: Animals (NA)
    contents:
     - eng: dog/dogs
@@ -317,3 +319,42 @@ sections:
       cree: miskât
     - eng: foot
       cree: misit
+
+ - title: Types of verbs
+   contents:
+    - abbrv: II
+      eng: Inanimate Intransitive
+    - abbrv: AI
+      eng: Animate Intransitive
+    - abbrv: TI
+      eng: Transitive Inanimate
+    - abbrv: TA
+      eng: Transitive Animate
+
+ - title: Tenses
+   contents:
+    - cree: kî
+      gloss: completed action
+    - cree: wî
+      eng: going to
+      gloss: intended action
+    - cree: ka
+      eng: future marker
+      gloss: will
+
+ # TODO: Demonstrative pronouns
+
+ - title: Directions (NI)
+   contents:
+    - cree: kîwetinohk
+      eng: north
+      literally: towards the north
+    - cree: âpihtâkîsikanohk
+      eng: south
+      literally: sun at mid day
+    - cree: sâkâstenohk
+      eng: east
+      literally: towards the sunrise
+    - cree: pahkisimôtahk
+      eng: west
+      literally: towards the sunset
