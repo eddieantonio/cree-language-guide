@@ -155,3 +155,27 @@ sections:
       trans: woman
     - cree: iskwêsis
       trans: girl
+
+ - title: Personal pronouns
+   contents:
+    - gloss: 1S
+      eng: I
+      cree: nîya
+    - gloss: 2S
+      eng: you
+      cree: kîya
+    - gloss: 3S
+      eng: he/she
+      cree: wîya
+    - gloss: 1P
+      eng: us but not you 
+      cree: nîyanân
+    - gloss: 2I
+      eng: all of us
+      cree: kîyânaw
+    - gloss: 2Pl
+      eng: all of you
+      cree: kîyawâw
+    - gloss: 3P
+      eng: all of them
+      cree: wîyawâw
