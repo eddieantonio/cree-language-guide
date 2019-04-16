@@ -5,7 +5,8 @@ authors:
  - Eddie Antonio Santos (April 2019)
 
 sections:
- - title: Conversation
+ conversation:
+   title: Conversation
    contents:
     - cree: tân'si
       trans: Hi, how are you?
@@ -49,7 +50,8 @@ sections:
       trans: "Very true!/Indeed!"
    footer: "<cî> is a question marker; it must be the 2nd word in the sentence."
 
- - title: Months of the Year
+ months-of-the-year:
+   title: Months of the Year
    subtitle: <pîsim> = sun/month
    contents:
     - eng: January
@@ -89,7 +91,8 @@ sections:
       trans: drift-clearing month
       cree: pawahcakinasîs
 
- - title: Interrogative Particles
+ interrogative-particles:
+   title: Interrogative Particles
    contents:
     - trans: Who
       cree: awîna
@@ -104,7 +107,8 @@ sections:
     - trans: How
       cree: tân'sîyisi
 
- - title: Come and ____!
+ come-and:
+   title: Come and ____!
    contents:
     - cree: pê mîciso
       trans: Come and eat!
@@ -113,7 +117,8 @@ sections:
     - cree: pê nîmihito
       trans: Come and dance!
 
- - title: Days of the Week
+ days-of-the-week:
+   title: Days of the Week
    note: <kîsikâw> is an AI verb means "it is day"
    contents:
     - trans: Monday
@@ -134,7 +139,8 @@ sections:
     - ayamihew (Verb, TA) = to pray
     - Monday means the day after prayer day
 
- - title: My relations
+ my-relations:
+   title: My relations
    subtitle: niwahkomâtanak
    contents:
     - cree: nohtâwiy
@@ -156,7 +162,8 @@ sections:
     - cree: iskwêsis
       trans: girl
 
- - title: Personal pronouns
+ personal-pronouns:
+   title: Personal pronouns
    contents:
     - gloss: 1S
       eng: I
@@ -180,7 +187,8 @@ sections:
       eng: all of them
       cree: wîyawâw
 
- - title: Emphatic pronouns
+ emphatic-pronouns:
+   title: Emphatic pronouns
    contents:
     - gloss: 1S
       eng: me too
@@ -204,7 +212,8 @@ sections:
       eng: all of them too
       cree: wîstawâw
 
- - title: Counting
+ counting:
+   title: Counting
    note: <akihcikê> (AI) verb = to count
    contents:
     - gloss: 1
@@ -249,7 +258,8 @@ sections:
       cree: nîstanaw
   # to be continued...
 
- - title: Telling time
+ telling-time:
+   title: Telling time
    note: tipahikan = time/hour; cipahikanis = minute (little time)
    headers:
      eng: What time is it?
@@ -273,8 +283,8 @@ sections:
       wide-cree: nîstanaw cipahikanis mîyâskam nêwo tipahikan
 
   # TODO: Verb conjugation
-
- - title: Animals (NA)
+ animals:
+   title: Animals (NA)
    contents:
     - eng: dog/dogs
       cree: atim/atimwak
@@ -297,7 +307,8 @@ sections:
     - eng: porcupine/porcupines
       cree: kâkwa/kâkwak
 
- - title: Parts of the body
+ parts-of-the-body:
+   title: Parts of the body
    contents:
     - eng: head
       cree: mistikwân
@@ -320,7 +331,8 @@ sections:
     - eng: foot
       cree: misit
 
- - title: Types of verbs
+ types-of-verbs:
+   title: Types of verbs
    contents:
     - abbrv: II
       eng: Inanimate Intransitive
@@ -331,7 +343,8 @@ sections:
     - abbrv: TA
       eng: Transitive Animate
 
- - title: Tenses
+ tenses:
+   title: Tenses
    contents:
     - cree: kî
       gloss: completed action
@@ -344,7 +357,8 @@ sections:
 
  # TODO: Demonstrative pronouns
 
- - title: Directions (NI)
+ directions:
+   title: Directions (NI)
    contents:
     - cree: kîwetinohk
       eng: north
