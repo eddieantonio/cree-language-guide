@@ -14,8 +14,20 @@
       <h2>{{ __.subtitle }}</h1>
     </header>
 
+    {%- assign _ = __.sections.conversation -%}
     <section id="conversation" class="conversation">
-      {%- assign _ = __.sections.conversation -%}
+      <h3>{{ _.title }}</h3>
+      <dl>{%- for pair in _.contents -%}
+        <dt lang="cr">{{ pair.cree -}}
+        <dd>{{ pair.trans }}
+      {%- endfor -%}</dl>
+      <footer>
+        <small>{{ _.footer | escape }}</small>
+      </footer>
+    </section>
+
+    {%- assign _ = __.sections.months-of-the-year -%}
+    <section id="months-of-the-year" class="months-of-the-year">
       <h3>{{ _.title }}</h3>
       <dl>{%- for pair in _.contents -%}
         <dt lang="cr">{{ pair.cree -}}
