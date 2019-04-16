@@ -179,3 +179,141 @@ sections:
     - gloss: 3P
       eng: all of them
       cree: wîyawâw
+
+ - title: Emphatic pronouns
+   contents:
+    - gloss: 1S
+      eng: me too
+      cree: nîsta
+    - gloss: 2S
+      eng: you too
+      cree: kîsta
+    - gloss: 3S
+      eng: he/she too
+      cree: wîsta
+    - gloss: 1P
+      eng: us too (but not you)
+      cree: nîstanân
+    - gloss: 2I
+      eng: us too
+      cree: kîstanaw
+    - gloss: 2Pl
+      eng: all of you too
+      cree: kîstawâw
+    - gloss: 3P
+      eng: all of them too
+      cree: wîstawâw
+
+ - title: Counting
+   note: <akihcikê> (AI) verb = to count
+   contents:
+    - gloss: 1
+      cree: pêyak
+    - gloss: 2
+      cree: nîso
+    - gloss: 3
+      cree: nisto
+    - gloss: 4
+      cree: nêwo
+    - gloss: 5
+      cree: nîyânan
+    - gloss: 6
+      cree: nikotwâsik
+    - gloss: 7
+      cree: têpakohp
+    - gloss: 8
+      cree: ayinânêw
+    - gloss: 9
+      cree: kêkâ-mitâtaht
+    - gloss: 10
+      cree: mitâtaht
+    - gloss: 11
+      cree: pêyakosâp
+    - gloss: 12
+      cree: nîsosâp
+    - gloss: 13
+      cree: nistosâp
+    - gloss: 14
+      cree: nêwosâp
+    - gloss: 15
+      cree: nîyânanosâp
+    - gloss: 16
+      cree: nikotwâsiksosâp
+    - gloss: 17
+      cree: têpakohposâp
+    - gloss: 18
+      cree: ayinânêwosâp
+    - gloss: 19
+      cree: kêkâ-mitâtahtosâp
+    - gloss: 20
+      cree: nîstanaw
+  # to be continued...
+
+ - title: Telling time
+   note: tipahikan = time/hour; cipahikanis = minute (little time)
+   headers:
+     eng: What time is it?
+     cree: tân'tahto tipahikan
+   contents:
+    - gloss: 1:00
+      cree: pêyak tipahikan
+    - gloss: 2:00
+      cree: nîso tipahikan
+    - modifier: and a half
+      cree: mînâpihtaw
+    - gloss: 3:30
+      cree: nisto mînâpihtaw
+    - gloss: 5:30
+      cree: nîyânan mînâpihtaw
+    - modifier: after
+      cree: mîyâskam
+    - gloss: 4:05
+      wide-cree: nîyanân cipahikanis mîyâskam nêwo tipahikan
+    - gloss: 4:20
+      wide-cree: nîstanaw cipahikanis mîyâskam nêwo tipahikan
+
+ - title: Animals (NA)
+   contents:
+    - eng: dog/dogs
+      cree: atim/atimwak
+    - eng: cat/cats
+      cree: minôs/minôsak
+    - eng: horse/horses
+      cree: mistatim/mistatimwak
+    - eng: pig/pigs
+      cree: kôhkôs/kôhkôsak
+    - eng: cow/cows
+      cree: môstôs/môstôswak
+    - eng: duck/ducks
+      cree: sîsîp/sîsîpak
+    - eng: goose/geese
+      cree: niska/niskak
+    - eng: bear/bears
+      cree: maskwa/maskwak
+    - eng: fox/foxes
+      cree: mâhkêsîs/mâhkêsîsak
+    - eng: porcupine/porcupines
+      cree: kâkwa/kâkwak
+
+ - title: Parts of the body
+   contents:
+    - eng: head
+      cree: mistikwân
+    - eng: hair
+      cree: mîscakâsa
+    - eng: eye
+      cree: miskîsik
+    - eng: ear
+      cree: mihtawakay
+    - eng: nose
+      cree: mikot
+    - eng: mouth
+      cree: mitôn
+    - eng: arms
+      cree: mispiton
+    - eng: hand
+      cree: micihciy
+    - eng: leg
+      cree: miskât
+    - eng: foot
+      cree: misit
