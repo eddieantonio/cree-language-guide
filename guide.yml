@@ -3,8 +3,8 @@ subtitle: '“Y” Dialect'
 authors:
  - Loretta John (May 2011)
  - Eddie Antonio Santos (April 2019)
-sections:
 
+sections:
  - title: Conversation
    contents:
     - cree: tân'si
@@ -104,22 +104,7 @@ sections:
     - trans: How
       cree: tân'sîyisi
 
- - title: Interrogative Particles
-   contents:
-    - trans: Who
-      cree: awîna
-    - trans: What
-      cree: kîkway
-    - trans: When
-      cree: tân'spî
-    - trans: Where
-      cree: tân'te
-    - trans: Why
-      cree: tânêhki
-    - trans: How
-      cree: tân'sîyisi
-
- - title: Come and ---!
+ - title: Come and ____!
    contents:
     - cree: pê mîciso
       trans: Come and eat!
@@ -127,3 +112,46 @@ sections:
       trans: Come and sit! (2P)
     - cree: pê nîmihito
       trans: Come and dance!
+
+ - title: Days of the Week
+   note: <kîsikâw> is an AI verb means "it is day"
+   contents:
+    - trans: Monday
+      cree: pônayâmihêw kîsikâw
+    - trans: Tuesday
+      cree: nîso kîsikâw
+    - trans: Wednesday
+      cree: nisto kîsikâw
+    - trans: Thursday
+      cree: nêwo kîsikâw
+    - trans: Friday
+      cree: nîyânano kîsikâw
+    - trans: Saturday
+      cree: nikotwâsik kîsikâw
+    - trans: Sunday
+      cree: ayamihêw kîsikâw
+  footnote:
+    - ayamihew (Verb, TA) = to pray
+    - Monday means the day after prayer day
+
+ - title: My relations
+   subtitle: niwahkomâtanak
+   contents:
+    - cree: nohtâwiy
+      trans: my father
+    - cree: nikâwiy
+      trans: my mother
+    - cree: nimosom
+      trans: my grandfather
+    - cree: nôhkom
+      trans: my grandmother
+    - cree: nîtisânak
+      trans: my brothers and sisters
+    - cree: nâpew
+      trans: man
+    - cree: nâpesis
+      trans: boy
+    - cree: iskwêw
+      trans: woman
+    - cree: iskwêsis
+      trans: girl
