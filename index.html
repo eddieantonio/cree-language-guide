@@ -76,7 +76,7 @@ layout: guide
   <h3>{{ _.title }}</h3>
   <table>{%- for row in _.contents -%}
     <tr>
-      <th>{{ row.gloss }}</th>
+      <th scope="row">{{ row.gloss }}</th>
       <td>({{ row.eng }})</td>
       <td lang="cr">{{ row.cree -}}</td>
     </tr>
@@ -88,7 +88,7 @@ layout: guide
   <h3>{{ _.title }}</h3>
   <table>{%- for row in _.contents -%}
     <tr>
-      <th>{{ row.gloss }}</th>
+      <th scope="row">{{ row.gloss }}</th>
       <td>({{ row.eng }})</td>
       <td lang="cr">{{ row.cree -}}</td>
     </tr>
@@ -109,23 +109,22 @@ layout: guide
 <section id="telling-time" class="telling-time">
   <h3>{{ _.title }}</h3>
   <small>{{ _.note }}</small>
-  <!-- TODO: column span -->
   <table>
     <thead>
-      <th colspan="2">{{ _.headers.eng }}</th>
-      <th lang="cr">{{ _.headers.cree }}</th>
+      <th scope="col" colspan="2">{{ _.headers.eng }}</th>
+      <th scope="col" lang="cr">{{ _.headers.cree }}</th>
     </thead>
     <tbody>
     {%- for row in _.contents -%}<tr>
       {%- if row.modifier -%}
         <td></td>
-        <th class="modifier">{{ row.modifier }}</th>
+        <th scop="row" class="modifier">{{ row.modifier }}</th>
         <td lang="cr">{{ row.cree -}}</td>
       {%- elsif row.wide-cree -%}
-        <th class="gloss">{{ row.gloss }}</th>
+        <th scope="row" class="gloss">{{ row.gloss }}</th>
         <td lang="cr" colspan="2">{{ row.wide-cree -}}</td>
       {%- else -%}
-        <th class="gloss">{{ row.gloss }}</th>
+        <th scope="row" class="gloss">{{ row.gloss }}</th>
         <td></td>
         <td lang="cr">{{ row.cree -}}</td>
       {%- endif -%}
