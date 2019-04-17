@@ -109,15 +109,15 @@ layout: guide
   <h3>{{ _.title }}</h3>
   <small>{{ _.note }}</small>
   <table>
-    <thead>
+    <thead><tr>
       <th scope="col" colspan="2">{{ _.headers.eng }}</th>
       <th scope="col" lang="cr">{{ _.headers.cree }}</th>
-    </thead>
+    </tr></thead>
     <tbody>
     {%- for row in _.contents -%}<tr>
       {%- if row.modifier -%}
         <td></td>
-        <th scop="row" class="modifier">{{ row.modifier }}</th>
+        <th scope="row" class="modifier">{{ row.modifier }}</th>
         <td lang="cr">{{ row.cree -}}</td>
       {%- elsif row.wide-cree -%}
         <th scope="row" class="gloss">{{ row.gloss }}</th>
