@@ -4,7 +4,7 @@ layout: guide
 {%- assign __ = site.data.guide -%}
 <header>
   <h1>{{ __.title }}</h1>
-  <h2>{{ __.subtitle }}</h1>
+  <h2>{{ __.subtitle }}</h2>
 </header>
 
 {%- assign _ = __.sections.conversation -%}
@@ -99,9 +99,8 @@ layout: guide
 <section id="counting" class="counting">
   <h3>{{ _.title }}</h3>
   <dl>{%- for pair in _.contents -%}
-      <dt>{{ pair.gloss -}}</dd>
-      <dd lang="cr">{{ pair.cree -}}</dd>
-    </tr>
+      <dt>{{ pair.gloss -}}
+      <dd lang="cr">{{ pair.cree -}}
   {%- endfor -%}</dl>
 </section>
 
@@ -137,9 +136,8 @@ layout: guide
 <section id="animals" class="animals">
   <h3>{{ _.title }}</h3>
   <dl>{%- for pair in _.contents -%}
-      <dt lang="cr">{{ pair.cree -}}</dt>
-      <dd>{{ pair.trans -}}</dd>
-    </tr>
+      <dt lang="cr">{{ pair.cree -}}
+      <dd>{{ pair.trans -}}
   {%- endfor -%}</dl>
 </section>
 
@@ -147,9 +145,8 @@ layout: guide
 <section id="parts-of-the-body" class="parts-of-the-body">
   <h3>{{ _.title }}</h3>
   <dl>{%- for pair in _.contents -%}
-      <dt lang="cr">{{ pair.cree -}}</dt>
-      <dd>{{ pair.trans -}}</dd>
-    </tr>
+      <dt lang="cr">{{ pair.cree -}}
+      <dd>{{ pair.trans -}}
   {%- endfor -%}</dl>
 </section>
 
@@ -157,9 +154,8 @@ layout: guide
 <section id="types-of-verbs" class="types-of-verbs">
   <h3>{{ _.title }}</h3>
   <dl>{%- for pair in _.contents -%}
-      <dt>{{ pair.abbrv -}}</dt>
-      <dd>{{ pair.eng -}}</dd>
-    </tr>
+      <dt>{{ pair.abbrv -}}
+      <dd>{{ pair.eng -}}
   {%- endfor -%}</dl>
 </section>
 
@@ -167,11 +163,10 @@ layout: guide
 <section id="tenses" class="tenses">
   <h3>{{ _.title }}</h3>
   <dl>{%- for pair in _.contents -%}
-      <dt lang="cr">{{ pair.cree -}}</dt>
+      <dt lang="cr">{{ pair.cree -}}
       <dd>{{ pair.gloss }}
           {%- if pair.eng %} ({{ pair.eng }})
-          {%- endif -%}</dd>
-    </tr>
+          {%- endif -%}
   {%- endfor -%}</dl>
 </section>
 
@@ -179,8 +174,7 @@ layout: guide
 <section id="directions" class="directions">
   <h3>{{ _.title }}</h3>
   <dl>{%- for pair in _.contents -%}
-      <dt lang="cr">{{ pair.cree -}}</dt>
-      <dd>{{ pair.eng }} ({{ pair.literally }})</dd>
-    </tr>
+      <dt lang="cr">{{ pair.cree -}}
+      <dd>{{ pair.eng }} ({{ pair.literally }})
   {%- endfor -%}</dl>
 </section>
