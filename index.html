@@ -27,3 +27,151 @@ layout: guide
     <dd>{{ pair.trans }}
   {%- endfor -%}</dl>
 </section>
+
+{%- assign _ = __.sections.interrogative-particles -%}
+<section id="interrogative-particles" class="interrogative-particles">
+  <h3>{{ _.title }}</h3>
+  <dl>{%- for pair in _.contents -%}
+    <dt lang="cr">{{ pair.cree -}}
+    <dd>{{ pair.trans }}
+  {%- endfor -%}</dl>
+</section>
+
+{%- assign _ = __.sections.come-and -%}
+<section id="come-and" class="come-and">
+  <h3>{{ _.title }}</h3>
+  <dl>{%- for pair in _.contents -%}
+    <dt lang="cr">{{ pair.cree -}}
+    <dd>{{ pair.trans }}
+  {%- endfor -%}</dl>
+</section>
+
+{%- assign _ = __.sections.days-of-the-week -%}
+<section id="days-of-the-week" class="days-of-the-week">
+  <h3>{{ _.title }}</h3>
+  <small>{{ _.note | escape }}</small>
+  <dl>{%- for pair in _.contents -%}
+    <dt lang="cr">{{ pair.cree -}}
+    <dd>{{ pair.trans }}
+  {%- endfor -%}</dl>
+  <aside class="footnote">
+    {%- for note in _.footnote -%}
+    <p>{{ note | escape }}</p>
+    {%- endfor -%}
+  </aside>
+</section>
+
+{%- assign _ = __.sections.my-relations -%}
+<section id="my-relations" class="my-relations">
+  <h3>{{ _.title }}</h3>
+  <h4 lang="cr">{{ _.subtitle }}</h4>
+  <dl>{%- for pair in _.contents -%}
+    <dt lang="cr">{{ pair.cree -}}
+    <dd>{{ pair.trans }}
+  {%- endfor -%}</dl>
+</section>
+
+{%- assign _ = __.sections.personal-pronouns -%}
+<section id="personal-pronouns" class="personal-pronouns">
+  <h3>{{ _.title }}</h3>
+  <table>{%- for row in _.contents -%}
+    <tr>
+      <th>{{ row.gloss }}</th>
+      <td>({{ row.eng }})</td>
+      <td lang="cr">{{ row.cree -}}</td>
+    </tr>
+  {%- endfor -%}</table>
+</section>
+
+{%- assign _ = __.sections.emphatic-pronouns -%}
+<section id="emphatic-pronouns" class="emphatic-pronouns">
+  <h3>{{ _.title }}</h3>
+  <table>{%- for row in _.contents -%}
+    <tr>
+      <th>{{ row.gloss }}</th>
+      <td>({{ row.eng }})</td>
+      <td lang="cr">{{ row.cree -}}</td>
+    </tr>
+  {%- endfor -%}</table>
+</section>
+
+{%- assign _ = __.sections.counting -%}
+<section id="counting" class="counting">
+  <h3>{{ _.title }}</h3>
+  <dl>{%- for pair in _.contents -%}
+      <dt>{{ pair.gloss -}}</dd>
+      <dd lang="cr">{{ pair.cree -}}</dd>
+    </tr>
+  {%- endfor -%}</dl>
+</section>
+
+{%- assign _ = __.sections."telling-time" -%}
+<section id="telling-time" class="telling-time">
+  <h3>{{ _.title }}</h3>
+  <small>{{ _.note }}</small>
+  <!-- TODO: column span -->
+  <table>
+    <thead>
+      <th>{{ _.headers.eng }}</th>
+      <th lang="cr">{{ _.headers.cree }}</th>
+    </thead>
+    <tbody>
+    {%- for row in _.contents -%}<tr>
+      <th>{{ row.gloss }}</th>
+      <td lang="cr">{{ row.cree -}}</td>
+    </tr>{%- endfor -%}
+    </tbody>
+  </table>
+</section>
+
+{%- assign _ = __.sections.animals -%}
+<section id="animals" class="animals">
+  <h3>{{ _.title }}</h3>
+  <dl>{%- for pair in _.contents -%}
+      <dt lang="cr">{{ pair.cree -}}</dt>
+      <dd>{{ pair.trans -}}</dd>
+    </tr>
+  {%- endfor -%}</dl>
+</section>
+
+{%- assign _ = __.sections.parts-of-the-body -%}
+<section id="parts-of-the-body" class="parts-of-the-body">
+  <h3>{{ _.title }}</h3>
+  <dl>{%- for pair in _.contents -%}
+      <dt lang="cr">{{ pair.cree -}}</dt>
+      <dd>{{ pair.trans -}}</dd>
+    </tr>
+  {%- endfor -%}</dl>
+</section>
+
+{%- assign _ = __.sections.types-of-verbs -%}
+<section id="types-of-verbs" class="types-of-verbs">
+  <h3>{{ _.title }}</h3>
+  <dl>{%- for pair in _.contents -%}
+      <dt>{{ pair.abbrv -}}</dt>
+      <dd>{{ pair.eng -}}</dd>
+    </tr>
+  {%- endfor -%}</dl>
+</section>
+
+{%- assign _ = __.sections.tenses -%}
+<section id="tenses" class="tenses">
+  <h3>{{ _.title }}</h3>
+  <dl>{%- for pair in _.contents -%}
+      <dt lang="cr">{{ pair.cree -}}</dt>
+      <dd>{{ pair.gloss }}
+          {%- if pair.eng %} ({{ pair.eng }})
+          {%- endif -%}</dd>
+    </tr>
+  {%- endfor -%}</dl>
+</section>
+
+{%- assign _ = __.sections.directions -%}
+<section id="directions" class="directions">
+  <h3>{{ _.title }}</h3>
+  <dl>{%- for pair in _.contents -%}
+      <dt lang="cr">{{ pair.cree -}}</dt>
+      <dd>{{ pair.eng }} ({{ pair.literally }})</dd>
+    </tr>
+  {%- endfor -%}</dl>
+</section>

@@ -180,7 +180,7 @@ sections:
     - gloss: 2I
       eng: all of us
       cree: kîyânaw
-    - gloss: 2Pl
+    - gloss: 2P
       eng: all of you
       cree: kîyawâw
     - gloss: 3P
@@ -205,7 +205,7 @@ sections:
     - gloss: 2I
       eng: us too
       cree: kîstanaw
-    - gloss: 2Pl
+    - gloss: 2P
       eng: all of you too
       cree: kîstawâw
     - gloss: 3P
@@ -265,70 +265,71 @@ sections:
      eng: What time is it?
      cree: tân'tahto tipahikan
    contents:
-    - gloss: 1:00
+    - gloss: "1:00"
       cree: pêyak tipahikan
-    - gloss: 2:00
+    - gloss: "2:00"
       cree: nîso tipahikan
     - modifier: and a half
       cree: mînâpihtaw
-    - gloss: 3:30
+    - gloss: "3:30"
       cree: nisto mînâpihtaw
-    - gloss: 5:30
+    - gloss: "5:30"
       cree: nîyânan mînâpihtaw
     - modifier: after
       cree: mîyâskam
-    - gloss: 4:05
+    - gloss: "4:05"
       wide-cree: nîyanân cipahikanis mîyâskam nêwo tipahikan
-    - gloss: 4:20
+    - gloss: "4:20"
       wide-cree: nîstanaw cipahikanis mîyâskam nêwo tipahikan
 
-  # TODO: Verb conjugation
+ # TODO: Verb conjugation
+
  animals:
    title: Animals (NA)
    contents:
-    - eng: dog/dogs
+    - trans: dog/dogs
       cree: atim/atimwak
-    - eng: cat/cats
+    - trans: cat/cats
       cree: minôs/minôsak
-    - eng: horse/horses
+    - trans: horse/horses
       cree: mistatim/mistatimwak
-    - eng: pig/pigs
+    - trans: pig/pigs
       cree: kôhkôs/kôhkôsak
-    - eng: cow/cows
+    - trans: cow/cows
       cree: môstôs/môstôswak
-    - eng: duck/ducks
+    - trans: duck/ducks
       cree: sîsîp/sîsîpak
-    - eng: goose/geese
+    - trans: goose/geese
       cree: niska/niskak
-    - eng: bear/bears
+    - trans: bear/bears
       cree: maskwa/maskwak
-    - eng: fox/foxes
+    - trans: fox/foxes
       cree: mâhkêsîs/mâhkêsîsak
-    - eng: porcupine/porcupines
+    - trans: porcupine/porcupines
       cree: kâkwa/kâkwak
 
  parts-of-the-body:
    title: Parts of the body
    contents:
-    - eng: head
+    - trans: head
       cree: mistikwân
-    - eng: hair
+    - trans: hair
       cree: mîscakâsa
-    - eng: eye
+    - trans: eye
       cree: miskîsik
-    - eng: ear
+    - trans: ear
       cree: mihtawakay
-    - eng: nose
+    - trans: nose
       cree: mikot
-    - eng: mouth
+    - trans: mouth
       cree: mitôn
-    - eng: arms
+    - trans: arms
       cree: mispiton
-    - eng: hand
+    - trans: hand
       cree: micihciy
-    - eng: leg
+    - trans: leg
       cree: miskât
-    - eng: foot
+    - trans: foot
       cree: misit
 
  types-of-verbs:
