@@ -1,0 +1,25 @@
+---
+---
+
+@charset "UTF-8";
+
+// Reset
+* {
+    box-sizing: border-box;
+}
+
+// General styles
+body {
+    margin: 0;
+
+    background-color: #f0f0f0;
+
+    color: #111;
+    // Use fonts that support macrons/circumflexes, and syllabics first:
+    font-family: Euphemia, Euphemia UCAS, Aboriginal Sans, sans-serif;
+}
+
+// Reset margins
+h1, h2, h3, h4 {
+    margin: 0;
+}
