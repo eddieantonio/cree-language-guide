@@ -105,20 +105,30 @@ layout: guide
   {%- endfor -%}</dl>
 </section>
 
-{%- assign _ = __.sections."telling-time" -%}
+{%- assign _ = __.sections.telling-time -%}
 <section id="telling-time" class="telling-time">
   <h3>{{ _.title }}</h3>
   <small>{{ _.note }}</small>
   <!-- TODO: column span -->
   <table>
     <thead>
-      <th>{{ _.headers.eng }}</th>
+      <th colspan="2">{{ _.headers.eng }}</th>
       <th lang="cr">{{ _.headers.cree }}</th>
     </thead>
     <tbody>
     {%- for row in _.contents -%}<tr>
-      <th>{{ row.gloss }}</th>
-      <td lang="cr">{{ row.cree -}}</td>
+      {%- if row.modifier -%}
+        <td></td>
+        <th class="modifier">{{ row.modifier }}</th>
+        <td lang="cr">{{ row.cree -}}</td>
+      {%- elsif row.wide-cree -%}
+        <th class="gloss">{{ row.gloss }}</th>
+        <td lang="cr" colspan="2">{{ row.wide-cree -}}</td>
+      {%- else -%}
+        <th class="gloss">{{ row.gloss }}</th>
+        <td></td>
+        <td lang="cr">{{ row.cree -}}</td>
+      {%- endif -%}
     </tr>{%- endfor -%}
     </tbody>
   </table>
