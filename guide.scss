@@ -23,3 +23,67 @@ body {
 h1, h2, h3, h4 {
     margin: 0;
 }
+
+// Defining the main grid!
+main {
+    display: grid;
+
+    grid-template-areas:
+        "header header  header   header   header   header   header   header   header"
+        "const  convrs  convrs   convrs   months   months   months   interog  sound"
+        "const  convrs  convrs   convrs   months   months   months   comeand  sound"
+        "const  dayswk  counting counting counting counting time     time     sound"
+        "const  wahkoh  personal emphatic emphatic conjugtn conjugtn conjugtn sound"
+        "const  animals ptsbody  verbs    verbs    tenses   demonstr demonstr sound"
+        "const  animals ptsbody  dirs     dirs     dirs     demonstr demonstr sound"
+        "footer footer  footer   footer   footer   footer   footer   footer   footer";
+
+    & > header {
+        grid-area: header;
+    }
+    & > .conversation {
+        grid-area: convrs;
+    }
+    & > .months-of-the-year {
+        grid-area: months;
+    }
+    & > .interrogative-particles {
+        grid-area: interog;
+    }
+    & > .come-and {
+        grid-area: comeand;
+    }
+    & > .days-of-the-week {
+        grid-area: dayswk;
+    }
+    & > .my-relations {
+        grid-area: wahkoh;
+    }
+    & > .personal-pronouns {
+        grid-area: personal;
+    }
+    & > .emphatic-pronouns {
+        grid-area: emphatic;
+    }
+    & > .counting {
+        grid-area: counting;
+    }
+    & > .telling-time {
+        grid-area: time;
+    }
+    & > .animals {
+        grid-area: animals;
+    }
+    & > .parts-of-the-body {
+        grid-area: ptsbody;
+    }
+    & > .types-of-verbs {
+        grid-area: verbs;
+    }
+    & > .tenses {
+        grid-area: tenses;
+    }
+    & > .directions {
+        grid-area: dirs;
+    }
+}
