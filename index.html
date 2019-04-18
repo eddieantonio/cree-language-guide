@@ -96,6 +96,27 @@ layout: guide
   {%- endfor -%}</table>
 </section>
 
+{%- assign section = "verb-conjugation" -%}
+{%- assign _ = __.sections[section] -%}
+<section id="{{ section }}" class="{{ section }}">
+  <h3>{{ _.title }}</h3>
+  <table>
+    <thead><tr>
+      <td></td>
+      <th colspan="2" scope="col">{{ _.headers[0] }}
+      <th colspan="2" scope="col">{{ _.headers[1] }}
+    </tr></thead>
+    {%- for row in _.table -%}
+    <tr>
+      <th scope="row">{{ row.gloss }}
+      <td lang="cr">{{ row.icree -}}
+      <td>({{ row.itrans }})</td>
+      <td lang="cr">{{ row.ccree -}}
+      <td>({{ row.ctrans }})</td>
+    </tr>
+  {%- endfor -%}</table>
+</section>
+
 {%- assign _ = __.sections.counting -%}
 <section id="counting" class="counting">
   <h3>{{ _.title }}</h3>

@@ -282,7 +282,52 @@ sections:
     - gloss: "4:20"
       wide-cree: nîstanaw cipahikanis mîyâskam nêwo tipahikan
 
- # TODO: Verb conjugation
+ verb-conjugation:
+   title: Verb Conjugation [nipâ] = to sleep
+   headers:
+     - Independent Mode
+     - Conjunct Mode
+   table:
+     - gloss: 1S
+       icree:  ninipân
+       itrans: I sleep
+       ccree:  ê-nipâyân
+       ctrans: I am sleeping
+     - gloss: 2s
+       icree:  kinipân
+       itrans: You sleep
+       ccree:  ê-nipâyan
+       ctrans: You are sleeping
+     - gloss: 3s
+       icree:  nipâw
+       itrans: He/she sleeps
+       ccree:  ê-nipât
+       ctrans: He/she is sleeping
+     - gloss: 1P
+       icree:  ninipânân
+       itrans: We (excl) sleep
+       ccree:  ê-nipâyâhk
+       ctrans: We (excl) are sleeping
+     - gloss: 2I
+       icree:  kinipânaw
+       itrans: We (incl) sleep
+       ccree:  ê-nipâyahk
+       ctrans: We (excl) are sleeping
+     - gloss: 2P
+       icree:  kinipânâwâw
+       itrans: You all sleep
+       ccree:  ê-nipâyêk
+       ctrans: You all are sleeping
+     - gloss: 3P
+       icree:  nipâwak
+       itrans: They sleep
+       ccree:  ê-nipâcik
+       ctrans: They are sleeping
+     - gloss: 3'
+       icree:  nipâyiwa
+       itrans: John's son sleeps
+       ccree:  ê-nipâyit
+       ctrans: John's son is sleeping
 
  animals:
    title: Animals (NA)
