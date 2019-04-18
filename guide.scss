@@ -90,6 +90,12 @@ main {
     & > .directions {
         grid-area: dirs;
     }
+    & > .consonants {
+        grid-area: const;
+    }
+    & > .english-sounds {
+        grid-area: sound;
+    }
 }
 
 main > section {
@@ -99,6 +105,16 @@ main > section {
 main > header {
     background-color: maroon;
     color: #fff;
+}
+
+main > .consonants {
+    background-color: #00F;
+    color: #FFF;
+}
+
+main > .english-sounds {
+    background-color: #FF0;
+    color: #111;
 }
 
 // Make dt and dl be inline with each other

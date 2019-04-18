@@ -373,3 +373,30 @@ sections:
     - cree: pahkisimôtahk
       eng: west
       literally: towards the sunset
+
+ consonants:
+   title: Consonants
+   contents:
+    - p
+    - t
+    - k
+    - c
+    - s
+    - h
+    - m
+    - n
+
+ english-sounds:
+   title: English Sounds
+   contents:
+    - >-
+      _p_, _t_, _k_ sound more like _b_, _d_, _g_, especially
+      when they occur between two vowel sounds.
+    - _p_ as in _p_ay
+    - _t_ as in _t_ake
+    - _k_ as in _k_in
+    - _c_ as in ca_ts_
+    - _s_ as in _s_ay
+    - _h_ as in _h_ay
+    - _m_ as in _m_e
+    - _n_ as in _n_ap

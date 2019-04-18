@@ -178,3 +178,25 @@ layout: guide
       <dd>{{ pair.eng }} ({{ pair.literally }})
   {%- endfor -%}</dl>
 </section>
+
+{%- assign section = "consonants" -%}
+{%- assign _ = __.sections[section] -%}
+<section id="{{ section }}" class="{{ section }}">
+  <h3>{{ _.title }}</h3>
+  <ul class="consonant-list">
+  {%- for cnst in _.contents -%}
+    <li lang="cr">{{ cnst -}}
+  {%- endfor -%}
+  </ul>
+</section>
+
+{%- assign section = "english-sounds" -%}
+{%- assign _ = __.sections[section] -%}
+<section id="{{ section }}" class="{{ section }}">
+  <h3>{{ _.title }}</h3>
+  <ul class="sound-list">
+  {%- for tidbit in _.contents -%}
+    <li>{{ tidbit | markdownify -}}
+  {%- endfor -%}
+  </ul>
+</section>
