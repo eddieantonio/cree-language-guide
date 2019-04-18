@@ -48,7 +48,7 @@ sections:
       trans: Are you hungry?
     - cree: tâpwê pikwâni
       trans: "Very true!/Indeed!"
-   footer: "<cî> is a question marker; it must be the 2nd word in the sentence."
+   footer: "[cî] is a question marker; it must be the 2nd word in the sentence."
 
  months-of-the-year:
    title: Months of the Year
@@ -119,7 +119,7 @@ sections:
 
  days-of-the-week:
    title: Days of the Week
-   note: <kîsikâw> is an AI verb means "it is day"
+   note: "[kîsikâw] is an AI verb means “it is day”"
    contents:
     - trans: Monday
       cree: pônayâmihêw kîsikâw
@@ -136,8 +136,8 @@ sections:
     - trans: Sunday
       cree: ayamihêw kîsikâw
    footnote:
-    - ayamihew (Verb, TA) = to pray
-    - Monday means the day after prayer day
+    - "[ayamihew] (Verb, TA) = to pray"
+    - "Monday means the day after prayer day"
 
  my-relations:
    title: My relations
@@ -247,7 +247,7 @@ sections:
     - gloss: 15
       cree: nîyânanosâp
     - gloss: 16
-      cree: nikotwâsiksosâp
+      cree: nikotwâssosâp
     - gloss: 17
       cree: têpakohposâp
     - gloss: 18
@@ -260,7 +260,7 @@ sections:
 
  telling-time:
    title: Telling time
-   note: tipahikan = time/hour; cipahikanis = minute (little time)
+   note: "[tipahikan] = time/hour; [cipahikanis] = minute (little time)"
    headers:
      eng: What time is it?
      cree: tân'tahto tipahikan

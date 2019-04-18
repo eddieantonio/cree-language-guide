@@ -15,7 +15,8 @@ layout: guide
     <dd>{{ pair.trans }}
   {%- endfor -%}</dl>
   <footer>
-    <small>{{ _.footer | escape }}</small>
+    {%- comment %} Hack! replace [ and ] with HTML start and end tags. {% endcomment -%}
+    <small>{{ _.footer | replace: "]", "</span>" | replace: "[", "<span lang=cr>" }}</small>
   </footer>
 </section>
 
@@ -49,14 +50,14 @@ layout: guide
 {%- assign _ = __.sections.days-of-the-week -%}
 <section id="days-of-the-week" class="days-of-the-week">
   <h3>{{ _.title }}</h3>
-  <small>{{ _.note | escape }}</small>
+  <small>{{ _.note | replace: "]", "</span>" | replace: "[", "<span lang=cr>" }}</small>
   <dl class="inline">{%- for pair in _.contents -%}
     <dt lang="cr">{{ pair.cree -}}
     <dd>{{ pair.trans }}
   {%- endfor -%}</dl>
   <aside class="footnote">
     {%- for note in _.footnote -%}
-    <p>{{ note | escape }}</p>
+    <p>{{ note | replace: "]", "</span>" | replace: "[", "<span lang=cr>" }}</p>
     {%- endfor -%}
   </aside>
 </section>
@@ -107,7 +108,7 @@ layout: guide
 {%- assign _ = __.sections.telling-time -%}
 <section id="telling-time" class="telling-time">
   <h3>{{ _.title }}</h3>
-  <small>{{ _.note }}</small>
+  <small>{{ _.note | replace: "]", "</span>" | replace: "[", "<span lang=cr>" }}</small>
   <table>
     <thead><tr>
       <th scope="col" colspan="2">{{ _.headers.eng }}</th>
