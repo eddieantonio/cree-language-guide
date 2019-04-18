@@ -8,26 +8,50 @@
   <link rel="stylesheet" href="guide.css">
 </head>
 <body>
+  <form class="orthography-toggle">
+    <label><input type="radio" name="orthography" value="sro-c" checked> SRO (êîôâ)</label>
+    <label><input type="radio" name="orthography" value="sro-m"> SRO (ēīōā)</label>
+    <label><input type="radio" name="orthography" value="syllabics"> Syllabics/ᒐᐦᑭᐯᐦᐃᑲᓇ </label>
+  </form>
   <main>
     {{- content -}}
   </main>
   <script src="cree-sro-syllabics.js" charset="UTF-8"></script>
   <script>
+    let orthography = 'sro-c';
     let nodes = document.querySelectorAll("[lang='cr']");
+
     for (let node of nodes) {
       let sro = node.innerText;
       let syllabics = CreeSROSyllabics.sro2syllabics(sro);
 
-      node.attributes['data-syllabics'] = syllabics;
-      node.attributes['data-sro-circumflex'] = sro;
-      node.attributes['data-sro-macros'] = sro.normalize()
+      node.dataset.syllabics = syllabics;
+      node.dataset.sroCircumflex = sro;
+      node.dataset.sroMacrons = sro.normalize()
         .replace('ê', 'ē')
         .replace('î', 'ī')
         .replace('ô', 'ō')
         .replace('â', 'ā');
-
-      node.innerText = syllabics;
     }
+
+  document.querySelectorAll('input[name="orthography"]').forEach(el => {
+    el.addEventListener('click', event => {
+      let element = event.target;
+      orthography = element.value;
+
+      for (let node of nodes) {
+        let text;
+        if (orthography === 'syllabics') {
+          text = node.dataset.syllabics;
+        } else if (orthography === 'sro-c') {
+          text = node.dataset.sroCircumflex;
+        } else if (orthography === 'sro-m') {
+          text = node.dataset.sroMacrons;
+        }
+        node.innerText = text;
+      }
+    });
+  });
   </script>
 </body>
 </html>
