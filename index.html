@@ -10,7 +10,7 @@ layout: guide
 {%- assign _ = __.sections.conversation -%}
 <section id="conversation" class="conversation">
   <h3>{{ _.title }}</h3>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
     <dt lang="cr">{{ pair.cree -}}
     <dd>{{ pair.trans }}
   {%- endfor -%}</dl>
@@ -22,7 +22,7 @@ layout: guide
 {%- assign _ = __.sections.months-of-the-year -%}
 <section id="months-of-the-year" class="months-of-the-year">
   <h3>{{ _.title }}</h3>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
     <dt lang="cr">{{ pair.cree -}}
     <dd>{{ pair.trans }}
   {%- endfor -%}</dl>
@@ -31,7 +31,7 @@ layout: guide
 {%- assign _ = __.sections.interrogative-particles -%}
 <section id="interrogative-particles" class="interrogative-particles">
   <h3>{{ _.title }}</h3>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
     <dt lang="cr">{{ pair.cree -}}
     <dd>{{ pair.trans }}
   {%- endfor -%}</dl>
@@ -40,7 +40,7 @@ layout: guide
 {%- assign _ = __.sections.come-and -%}
 <section id="come-and" class="come-and">
   <h3>{{ _.title }}</h3>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
     <dt lang="cr">{{ pair.cree -}}
     <dd>{{ pair.trans }}
   {%- endfor -%}</dl>
@@ -50,7 +50,7 @@ layout: guide
 <section id="days-of-the-week" class="days-of-the-week">
   <h3>{{ _.title }}</h3>
   <small>{{ _.note | escape }}</small>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
     <dt lang="cr">{{ pair.cree -}}
     <dd>{{ pair.trans }}
   {%- endfor -%}</dl>
@@ -65,7 +65,7 @@ layout: guide
 <section id="my-relations" class="my-relations">
   <h3>{{ _.title }}</h3>
   <h4 lang="cr">{{ _.subtitle }}</h4>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
     <dt lang="cr">{{ pair.cree -}}
     <dd>{{ pair.trans }}
   {%- endfor -%}</dl>
@@ -98,7 +98,7 @@ layout: guide
 {%- assign _ = __.sections.counting -%}
 <section id="counting" class="counting">
   <h3>{{ _.title }}</h3>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
       <dt>{{ pair.gloss -}}
       <dd lang="cr">{{ pair.cree -}}
   {%- endfor -%}</dl>
@@ -135,7 +135,7 @@ layout: guide
 {%- assign _ = __.sections.animals -%}
 <section id="animals" class="animals">
   <h3>{{ _.title }}</h3>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
       <dt lang="cr">{{ pair.cree -}}
       <dd>{{ pair.trans -}}
   {%- endfor -%}</dl>
@@ -144,7 +144,7 @@ layout: guide
 {%- assign _ = __.sections.parts-of-the-body -%}
 <section id="parts-of-the-body" class="parts-of-the-body">
   <h3>{{ _.title }}</h3>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
       <dt lang="cr">{{ pair.cree -}}
       <dd>{{ pair.trans -}}
   {%- endfor -%}</dl>
@@ -153,7 +153,7 @@ layout: guide
 {%- assign _ = __.sections.types-of-verbs -%}
 <section id="types-of-verbs" class="types-of-verbs">
   <h3>{{ _.title }}</h3>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
       <dt>{{ pair.abbrv -}}
       <dd>{{ pair.eng -}}
   {%- endfor -%}</dl>
@@ -162,7 +162,7 @@ layout: guide
 {%- assign _ = __.sections.tenses -%}
 <section id="tenses" class="tenses">
   <h3>{{ _.title }}</h3>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
       <dt lang="cr">{{ pair.cree -}}
       <dd>{{ pair.gloss }}
           {%- if pair.eng %} ({{ pair.eng }})
@@ -173,7 +173,7 @@ layout: guide
 {%- assign _ = __.sections.directions -%}
 <section id="directions" class="directions">
   <h3>{{ _.title }}</h3>
-  <dl>{%- for pair in _.contents -%}
+  <dl class="inline">{%- for pair in _.contents -%}
       <dt lang="cr">{{ pair.cree -}}
       <dd>{{ pair.eng }} ({{ pair.literally }})
   {%- endfor -%}</dl>

@@ -12,7 +12,7 @@
 body {
     margin: 0;
 
-    background-color: #f0f0f0;
+    background-color: #fff;
 
     color: #111;
     // Use fonts that support macrons/circumflexes, and syllabics first:
@@ -22,6 +22,10 @@ body {
 // Reset margins
 h1, h2, h3, h4 {
     margin: 0;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
 }
 
 // Defining the main grid!
@@ -85,5 +89,29 @@ main {
     }
     & > .directions {
         grid-area: dirs;
+    }
+}
+
+main > section {
+    padding: 1rem;
+}
+
+main > header {
+    background-color: maroon;
+    color: #fff;
+}
+
+// Make dt and dl be inline with each other
+dl.inline {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+
+    & > dt {
+        flex: 0 0 50%;
+    }
+    & > dd {
+        flex: 0 0 50%;
+        margin-left: auto;
     }
 }
