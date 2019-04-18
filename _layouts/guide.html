@@ -11,5 +11,23 @@
   <main>
     {{- content -}}
   </main>
+  <script src="cree-sro-syllabics.js" charset="UTF-8"></script>
+  <script>
+    let nodes = document.querySelectorAll("[lang='cr']");
+    for (let node of nodes) {
+      let sro = node.innerText;
+      let syllabics = CreeSROSyllabics.sro2syllabics(sro);
+
+      node.attributes['data-syllabics'] = syllabics;
+      node.attributes['data-sro-circumflex'] = sro;
+      node.attributes['data-sro-macros'] = sro.normalize()
+        .replace('ê', 'ē')
+        .replace('î', 'ī')
+        .replace('ô', 'ō')
+        .replace('â', 'ā');
+
+      node.innerText = syllabics;
+    }
+  </script>
 </body>
 </html>
