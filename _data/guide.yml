@@ -401,7 +401,46 @@ sections:
       eng: future marker
       gloss: will
 
- # TODO: Demonstrative pronouns
+ demonstrative-pronouns:
+   title: Demonstrative Pronouns
+   na:
+     note: NA (if object comes first, it completes the sentence)
+     table:
+       - cree: awa
+         trans: this
+         egcree: awa nâpêw
+         egtrans: this man
+       - cree: ana
+         trans: that
+         egcree: nâpêw ana
+         egtrans: That is a man
+       - cree: ôki
+         trans: these
+         egcree: nâpêwak ôki
+         egtrans: These are men
+       - cree: aniki
+         trans: those
+         egcree: aniki nâpêwak
+         egtrans: Those men
+   ni:
+     note: NI
+     table:
+       - cree: ôma
+         trans: this
+         egcree: tehtapiwin ôma
+         egtrans: This is a chair
+       - cree: anima
+         trans: that
+         egcree: maskisin anima
+         egtrans: That is a show
+       - cree: ôhi
+         trans: these
+         egcree: wîyâkana ôki
+         egtrans: These are dishes
+       - cree: anihi
+         trans: those
+         egcree: anihi maskisina
+         egtrans: Those shoes
 
  directions:
    title: Directions (NI)

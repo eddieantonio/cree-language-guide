@@ -192,6 +192,25 @@ layout: guide
   {%- endfor -%}</dl>
 </section>
 
+{%- assign section = "demonstrative-pronouns" -%}
+{%- assign _ = __.sections[section] -%}
+<section id="{{ section }}" class="{{ section }}">
+  <h3>{{ _.title }}</h3>
+
+  {%- assign nani = "na ni" | split: " " -%}
+  {%- for pos in nani -%}
+    <table>
+      <caption>{{ _[pos].note }}</caption>
+      {%- for row in _[pos].table -%}<tr>
+        <td lang="cr">{{ row.cree -}}
+        <td>({{ row.trans -}})
+        <td lang="cr">{{ row.egcree -}}
+        <td>({{ row.egtrans -}})
+      </tr>{%- endfor -%}
+    </table>
+  {%- endfor -%}
+</section>
+
 {%- assign _ = __.sections.directions -%}
 <section id="directions" class="directions">
   <h3>{{ _.title }}</h3>
