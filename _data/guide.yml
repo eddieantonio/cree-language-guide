@@ -332,26 +332,26 @@ sections:
  animals:
    title: Animals (NA)
    contents:
-    - trans: dog/dogs
-      cree: atim/atimwak
-    - trans: cat/cats
-      cree: minôs/minôsak
-    - trans: horse/horses
-      cree: mistatim/mistatimwak
-    - trans: pig/pigs
-      cree: kôhkôs/kôhkôsak
-    - trans: cow/cows
-      cree: môstôs/môstôswak
-    - trans: duck/ducks
-      cree: sîsîp/sîsîpak
-    - trans: goose/geese
-      cree: niska/niskak
-    - trans: bear/bears
-      cree: maskwa/maskwak
-    - trans: fox/foxes
-      cree: mâhkêsîs/mâhkêsîsak
-    - trans: porcupine/porcupines
-      cree: kâkwa/kâkwak
+    - trans: dog
+      cree: atim
+    - trans: cat
+      cree: minôs
+    - trans: horse
+      cree: mistatim
+    - trans: pig
+      cree: kôhkôs
+    - trans: cow
+      cree: môstôs
+    - trans: duck
+      cree: sîsîp
+    - trans: goose
+      cree: niska
+    - trans: bear
+      cree: maskwa
+    - trans: fox
+      cree: mâhkêsîs
+    - trans: porcupine
+      cree: kâkwa
 
  parts-of-the-body:
    title: Parts of the body
