@@ -126,6 +126,11 @@ main > .english-sounds {
     color: #111;
 }
 
+main > .vowels {
+    display: flex;
+    flex-direction: row;
+}
+
 // Make dt and dl be inline with each other
 dl.inline {
     display: flex;
