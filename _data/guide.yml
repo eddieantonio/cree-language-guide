@@ -484,3 +484,28 @@ sections:
     - _h_ as in _h_ay
     - _m_ as in _m_e
     - _n_ as in _n_ap
+
+ vowels:
+   tables:
+    - titles:
+       - Long vowels
+       - Similar sound in English
+      contents:
+       - cree: ê
+         eng: <b>e</b>gg
+       - cree: î
+         eng: s<b>ee</b>
+       - cree: â
+         eng: <b>aa</b>h
+       - cree: ô
+         eng: m<b>oo</b>se
+    - titles:
+       - Short vowels
+       -
+      contents:
+       - cree: i
+         eng: f<b>i</b>t
+       - cree: a
+         eng: s<b>u</b>n
+       - cree: o
+         eng: m<b>o</b>w

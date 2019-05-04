@@ -241,3 +241,24 @@ layout: guide
   {%- endfor -%}
   </ul>
 </section>
+
+{%- assign section = "vowels" -%}
+{%- assign _ = __.sections[section] -%}
+<section id="{{ section }}" class="{{ section }}">
+  {%- for table in _.tables -%}
+    <table>
+      <tr>
+        <th scope="row">{{ table.titles[0] }}</th>
+        {%- for col in table.contents -%}
+          <td lang="cr">{{ col.cree }}</td>
+        {%- endfor -%}
+      </tr>
+      <tr>
+        <th scope="row">{{ table.titles[1] }}</th>
+        {%- for col in table.contents -%}
+          <td>{{ col.eng }}</td>
+        {%- endfor -%}
+      </tr>
+    </table>
+  {%- endfor -%}
+</section>
