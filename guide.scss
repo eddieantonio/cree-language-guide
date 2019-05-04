@@ -40,7 +40,7 @@ main {
         "const  wahkoh  personal emphatic emphatic conjugtn conjugtn conjugtn sound"
         "const  animals ptsbody  verbs    verbs    tenses   demonstr demonstr sound"
         "const  animals ptsbody  dirs     dirs     dirs     demonstr demonstr sound"
-        "footer footer  footer   footer   footer   footer   footer   footer   footer";
+        "vowels vowels  vowels   vowels   vowels   vowels   vowels   vowels   vowels";
 
     & > header {
         grid-area: header;
@@ -101,6 +101,9 @@ main {
     }
     & > .english-sounds {
         grid-area: sound;
+    }
+    & > .vowels {
+        grid-area: vowels;
     }
 }
 

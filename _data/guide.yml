@@ -509,3 +509,27 @@ sections:
          eng: s<b>u</b>n
        - cree: o
          eng: m<b>o</b>w
+    - titles:
+       - Semi-vowels
+       -
+      contents:
+       - cree: y
+         eng: <b>y</b>ou
+       - cree: w
+         eng: <b>w</b>et
+    - titles:
+       - Dipthongs
+       -
+      contents:
+       - cree: ask<b>iy</b>
+         eng: <b>b</b>ee
+       - cree: <b>ay</b>-ay
+         eng: <b>i</b>ce
+       - cree: ap<b>oy</b>
+         eng: b<b>oi</b>l
+       - cree: ap<b>oy</b>
+         eng: b<b>oi</b>l
+       - cree: nap<b>êw</b>
+         eng: ê as
+       - cree: mîcis<b>ow</b>
+         eng: s<b>oo</b>n
